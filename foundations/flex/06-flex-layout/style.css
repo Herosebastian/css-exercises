@@ -24,3 +24,69 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/* ALL CHANGES MADE TO THIS FILE SEE BELOW */
+
+button{
+  padding: 8px 16px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(101, 101, 101);
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+/* Since these rules are almost the same we can instead chain selectors to 
+make the work cleaner */
+
+/* .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 16px
+
+} */
+
+.header,.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+Then we can simply add the unique rules for each respective class
+.footer{
+  background-color: #eee;
+}
+
+.left-links{
+  display: flex;
+  gap: 16px;
+}
+.right-links{
+  display: flex;
+  gap: 16px;
+}
