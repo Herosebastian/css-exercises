@@ -27,3 +27,76 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* All changes made to this file are done below */
+/* Commented code is code that I wrote that is not included 
+in the solution doc or code that is executed differently*/
+
+body{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  height: auto;
+  width: auto; */
+}
+
+.card{
+  padding: 16px;
+  /* margin: 8px; */
+  width: 250px;
+}
+
+.card-container{
+  /* width: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  /* MISSED CONTENT */
+  gap: 32px;
+  /* MISSED CONTENT */
+}
+
+.center{
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar{
+  padding: 16px;
+  /* min-width: 300px; */
+  flex-shrink: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style-type: none;
+  /* MISSED CONTENT */
+  margin: 0;
+  padding: 0;
+  /* MISSED CONTENT */
+}
+
+/* MISSED CONTENT */
+li{
+  margin-bottom: 16px;
+}
+/* MISSED CONTENT */
+
+.header{
+  display: flex;
+  align-items: center;
+  /* padding-left: 16px; */
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
